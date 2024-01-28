@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin-top: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <!-- <input type="button" id="in1" value="Increase"> -->
+        <button type="button" value="Increase" onclick="add()"></button>
+        <!-- <input type="button" id="in2" value="Decrease"> -->
+        <button type="button" value="Decrease" onclick="sub()"></button>
+        <!-- <input type="button" id="in3" value="Reset"> -->
+        <button type="button" value="Reset" onclick=""></button>
+    </center>
+
+    <script>
+        let count = 0 
+        function add(){
+            count += 1
+            console.log(count)
+        }
+        let counts = 0
+        function sub(){
+            counts= --1
+            console.log()
+        }
+    </script>
+</body>
+
+</html>
